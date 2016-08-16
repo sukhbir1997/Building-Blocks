@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Building Blocks</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+ 
+</head>
+<body>
+ 
+ <!-- HEADER SECTION -->
+ <section id="start">
+ 	<h1>Building Blocks</h1>
+ 	<h2>Play Around! And have Fun!</h2>
+ 	<button id="startbtn" >Start Now</button>
+ </section>
+
+<!-- NAVBAR -->
+ <div class="ui secondary vertical pointing menu app">
+  <a class="item active" id="pyramid">Pyramid</a>
+  <a class="item" id="circle">Circle</a>
+  <a class="item" id="rectangle">Rectangle</a>
+  <a class="item" id="triangle">Triangle</a>
+  <a class="item" id="oppositetriangle">Opposite Triangle</a>
+  <a class="item" id="square">Square</a>
+  <a class="item" id="cube">Cube</a>
+  <a class="item" id="heart">Heart</a>
+  <a class="item" id="star">Star</a>
+</div>
+
+ <!-- EXTRA SETTINGS -->
+<div id="setting">
+	<h4>Current Size: <span> 3em</span></h4>
+	<h5>Keep size between 1-6 to <br> 
+	avoid picture explosion </h5>
+	<div class="ui right labeled input">
+  		<input type="number" placeholder="Enter Size">
+		  <div class="ui basic label">
+		    em
+		  </div>
+	</div>	
+	<br><br>
+	<button id="clear">Clear</button>
+	<button id="undo"><i class="fa fa-backward" aria-hidden="true"></i></button>
+</div>
+
+ <!-- DRAWING PAD -->
+<div id="container">
+  <h3> Click the shapes in the navbar to add the shape to your drawing board</h3>
+</div>
+ 
+ 
+
+ <script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
